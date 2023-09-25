@@ -3,7 +3,7 @@
 
 .main1{
     /* border: 2px solid red; */
-    height: 80vh;
+    min-height: 80vh;
     background-image: url(https://cdn.pixabay.com/photo/2020/01/15/17/38/fireworks-4768501_1280.jpg);
  background-size: 100% 100%;
 display: flex;
@@ -13,11 +13,11 @@ align-items: center;
 
 .main1txt{
     /* border: 2px solid green; */
-height: 55vh;
-width: 40vw;
+/* height: 55vh; */
+width: 40%;
 position: relative;
-right: 6vw;
-top: 3vh;
+/* right: 6vw; */
+/* top: 3vh; */
 
 }
 .main1txt>h1{margin: 2vh;
@@ -55,8 +55,8 @@ margin: 2vh;}
     height: 64vh;
     width: 37vw;
     position: relative;
-    top: 2vh;
-    left: 8vw;
+    /* top: 2vh; */
+    /* left: 8vw; */
     background-image: url(https://cdn.pixabay.com/photo/2018/01/16/16/48/adult-3086307_1280.jpg);
     background-size: 100% 100%;
     border-radius: 8%;
@@ -66,9 +66,10 @@ margin: 2vh;}
     /* border: 2px solid red; */
     height: 20vh;
     width: 30vw;
-    position: relative;
-    top: 38vh;
-    left: 4vw;
+    position: absolute;
+    /* top: 38vh; */
+    /* left: 4vw; */
+    bottom: 1rem;
     border-radius: 12%;
     background-color: beige;
    
